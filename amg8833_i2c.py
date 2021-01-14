@@ -7,6 +7,8 @@
 #
 #######################################################
 #
+import smbus # i2c bus
+#
 #############################
 # Device/I2C Info
 #############################
@@ -78,7 +80,7 @@ class i2c_driver(object):
     def __init__(self, address, busnum, i2c_interface=None):
         self._address = address
         # specify smbus for RPi (smbus 1 for RPi 2,3,4)
-        self._bus = i2c_interface(busnum)
+        self._bus = smbus.SMBus(busnum)
 
     def write8(self, register, value):
         # write 8-bits to specified register
