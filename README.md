@@ -13,3 +13,10 @@ The following plot is outputted by the example script:
  - /examples/IR_cam_test.py
 
 ![AMG8833 Plot Test](https://static1.squarespace.com/static/59b037304c0dbfb092fbe894/t/60008c350b092f4fbc949df7/1610648652687/AMG8833_IR_cam_test.png?format=1000w)
+
+### - Real-Time Interpolated IR Camera - 
+
+The following plot is outputted by the example script:
+ - /examples/IR_cam_interp.py
+
+![AMG8833 Interpolated Real-Time](https://static1.squarespace.com/static/59b037304c0dbfb092fbe894/t/6000b926078d244fe1a01fb5/1610660212607/ir_cam_interp_video_demo.gif?format=1000w)
