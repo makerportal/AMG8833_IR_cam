@@ -11,3 +11,5 @@ The AMG8833 is powered by the 5V pin on the Raspberry Pi, and wired to the SDA/S
 
 The following plot is outputted by the example script:
  - /examples/IR_cam_test.py
+
+![AMG8833 Plot Test](test)
