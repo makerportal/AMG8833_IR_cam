@@ -8,6 +8,7 @@
 #
 # load AMG8833 module first
 import amg8833_i2c,time,sys
+sys.path.append('../')
 import numpy as np
 import matplotlib.pyplot as plt
 #
