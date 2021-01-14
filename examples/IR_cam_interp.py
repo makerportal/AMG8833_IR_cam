@@ -7,9 +7,10 @@
 #
 #######################################################
 #
-# load AMG8833 module first
-import amg8833_i2c,time,sys
+import time,sys
 sys.path.append('../')
+# load AMG8833 module
+import amg8833_i2c
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import interpolate
