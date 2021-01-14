@@ -144,3 +144,4 @@ class AMG8833(object):
             return float(val)
         else:
             return -float(0x7FF & val)
+        
