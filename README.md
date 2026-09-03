@@ -1,6 +1,8 @@
 # Python Thermal Camera with Raspberry Pi (AMG8833)
 Python codes for development of a real-time thermal camera using a Raspberry Pi 4 and AMG8833 infrared array
 
+**Interactive companion:** [Edge & SBC Benchmarks](https://makerportal.ai/lab/edge-sbc-benchmarks) — compare compute, memory, and efficiency tradeoffs for edge workloads.
+
 ### - Real-Time Interpolated IR Camera - 
 
 The following plot is outputted by the example script:
